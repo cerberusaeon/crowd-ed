@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Marco - Bootstrap Landing Page</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">        
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/typicons/typicons.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style-signup.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+    
+        <!-- Loader -->
+    	<div class="loader">
+    		<div class="loader-img"></div>
+    	</div>
+				
+        <!-- Top content -->
+        <div class="top-content">
+        	
+        	<!-- Top menu -->
+			<nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">Marco - Bootstrap Landing Page</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="top-navbar-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="scroll-link" href="#features">QoD?</a></li>
+							<li><a class="scroll-link" href="#how-it-works">Policy Problems</a></li>
+							<li><a class="scroll-link" href="#how-it-works">Videos</a></li>
+							<li><a class="scroll-link" href="#about-us">About</a></li>
+							<li><a class="btn btn-link-2 scroll-link" href="#pricing">Sign In</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+        	
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 text">
+                            <h1 class="wow fadeInLeftBig">Teachers Influencing<strong> Education Policy</strong></h1>
+                            <div class="description wow fadeInLeftBig">
+                            	<p>
+	                            	CROWD.ED is a platform that provides teachers a meaningful way to provide feedback to directly influence education policy. We're here to listen. We're here to make a difference.
+                            	</p>
+                            </div>
+                            <div class="top-big-link wow fadeInUp">
+                            	<a class="btn btn-link-2 scroll-link" href="home.html#features">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 form-box wow fadeInUp">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h3>Sign up now</h3>
+                            		<p>Fill in the form below to get instant access:</p>
+                        		</div>
+                        		<div class="form-top-right">
+                        			<span aria-hidden="true" class="typcn typcn-pencil"></span>
+                        		</div>
+                            </div>
+                            <div class="form-bottom">
+			                    <form role="form" action="" method="post">
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="form-first-name">First name</label>
+			                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-last-name">Last name</label>
+			                        	<input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-email">Email</label>
+			                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
+			                        </div>
+									<div class="form-group">
+										<label class="sr-only" for="form-password">Password</label>
+										<input type="text" name="form-password" placeholder="Password..." class="form-email form-control" id="form-password">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="form-position">Position</label>
+										<select id="form-position" class="form-email form-control crowded-select" style="height:50px;">
+											<option value="Select">Select</option>
+											<option value="Teacher">Teacher</option>
+											<option value="Principal">Principal</option>
+											<option value="policy">Policy Maker</option>
+										</select>
+									</div>
+			                        <button type="submit" class="btn">Sign me up!</button>
+			                        <div class="form-links">
+			                        	<a href="#" class="launch-modal" data-modal-id="modal-privacy">Privacy Policy</a> - 
+			                        	<a href="#" class="launch-modal" data-modal-id="modal-faq">FAQ</a>
+			                        </div>
+			                    </form>
+		                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+                    <div class="col-sm-12 footer-social">
+                    	<a href="#"><span class="typcn typcn-social-facebook"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-twitter"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-google-plus"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-pinterest"></span></a>
+                    </div>
+	            </div>
+	            <div class="row">
+                    <div class="col-sm-12 footer-copyright">
+                    	&copy; Department of Education
+                    </div>
+                </div>
+	        </div>
+        </footer>
+        
+        
+        <!-- MODAL: Privacy policy -->
+        <div class="modal fade" id="modal-privacy" tabindex="-1" role="dialog" aria-labelledby="modal-privacy-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h2 class="modal-title" id="modal-privacy-label">Privacy policy</h2>
+        			</div>
+        			<div class="modal-body">
+        				<h3>1. Dolor sit amet</h3>
+        				<p>
+	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+	                    <ul>
+	                    	<li>Easy To Use</li>
+	                    	<li>Awesome Design</li>
+	                    	<li>Cloud Based</li>
+	                    </ul>
+	                    <p>
+	                    	Ut wisi enim ad minim veniam, <a href="#">quis nostrud exerci tation</a> ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+	                    	commodo consequat nostrud tation.
+	                    </p>
+	                    <h3>2. Sed do eiusmod</h3>
+	                    <p>
+	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+	                    <h3>3. Nostrud exerci tation</h3>
+	                    <p>
+	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+	                    	commodo consequat nostrud tation.
+	                    </p>
+	                    <p>
+	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn" data-dismiss="modal">Close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+        <!-- MODAL: Frequent questions -->
+        <div class="modal fade" id="modal-faq" tabindex="-1" role="dialog" aria-labelledby="modal-faq-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h2 class="modal-title" id="modal-faq-label">Frequent questions</h2>
+        			</div>
+        			<div class="modal-body">
+        				<h3>1. Lorem ipsum dolor?</h3>
+        				<p>
+	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+	                    <h3>2. Ut wisi enim ad minim?</h3>
+	                    <p>
+	                    	Ut wisi enim ad minim veniam, <a href="#">quis nostrud exerci tation</a> ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+	                    	commodo consequat nostrud tation.
+	                    </p>
+	                    <h3>3. Sed do eiusmod tempor?</h3>
+	                    <p>
+	                    	Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+	                    <h3>4. Nostrud exerci tation?</h3>
+	                    <p>
+	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
+	                    	commodo consequat nostrud tation.
+	                    </p>
+	                    <h3>5. Consectetur adipisicing elit?</h3>
+	                    <p>
+	                    	Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+	                    </p>
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn" data-dismiss="modal">Close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>
