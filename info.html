@@ -55,6 +55,10 @@
         .crowded-radio-input{
             margin-right:20px;
         }
+        .chill{
+            opacity: 0;
+            width:300px;
+        }
 
 
     </style>
@@ -101,23 +105,21 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 features section-description wow fadeIn">
-                <h2 class="dark">Policy Problem</h2>
+                <h2 class="dark">Information</h2>
                 <div class="divider-1 wow fadeInUp"><span></span></div>
-
-                <form>
-                    <br/>
-                    <div class="form-group" style="text-align:center;" >
-                        <h3 class="dark">How can the Department of Education assure the safety and privacy of transgender student athletes?  Is the Department of Education's current Title IX enforcement scheme sufficient enough or are there areas for improvement?  What are states, districts, schools, or teachers currently doing to assure students are not discriminated against based upon their sexual identity?</h3>
-                        <div contenteditable="true" class="well col-lg-8 col-lg-offset-2" style="min-height: 500px; text-align:left;" >
-                            Give your thoughtful response here...
-                        </div>
-                        <div class="col-sm-12 col-lg-offset-3 section-bottom-button wow fadeInUp" style="position:relative; top:-60px;">
-                            <a class="btn btn-link-1 scroll-link" style="min-width:200px;" href="#pricing">Submit</a>
-                        </div>
-                    </div>
-
-                </form>
-
+                <p>Info-graphics generated from data collected from Question of the Day Polls.</p>
+                <div id="graphic01"  style="display:inline-block;" class="chill">
+                    <img  src="assets/img/graphic01.png" />
+                    <span>Ipsum nostrum eum ex, sit novum iusto verterem ex, cu ignota omnesque consectetuer vim. Ex inermis evertitur dissentiet pro, labores blandit indoctum nam te, sententiae theophrastus intellegebat nec ei.</span>
+                </div>
+                <div id="graphic02"  style="display:inline-block" class="chill">
+                    <img src="assets/img/graphic02.png" />
+                    <span style="width:280px;">Ipsum nostrum eum ex, sit novum iusto verterem ex, cu ignota omnesque consectetuer vim. Ex inermis evertitur dissentiet pro, labores blandit indoctum nam te, sententiae theophrastus intellegebat nec ei.</span>
+                </div>
+                <div id="graphic03"  style="display:inline-block" class="chill">
+                    <img src="assets/img/graphic03.png" />
+                    <span>Ipsum nostrum eum ex, sit novum iusto verterem ex, cu ignota omnesque consectetuer vim. Ex inermis evertitur dissentiet pro, labores blandit indoctum nam te, sententiae theophrastus intellegebat nec ei.</span>
+                </div>
 
             </div>
         </div>
@@ -156,6 +158,25 @@
 <script src="assets/js/retina-1.1.0.min.js"></script>
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/scripts.js"></script>
+
+<script>
+
+    setTimeout(function(){
+        $("#graphic01").addClass("animated bounceIn");
+
+    },1000);
+    setTimeout(function(){
+
+        $("#graphic02").addClass("animated bounceIn");
+
+    },1200);
+    setTimeout(function(){
+
+        $("#graphic03").addClass("animated bounceIn");
+    },1400);
+
+
+</script>
 
 </body>
 
